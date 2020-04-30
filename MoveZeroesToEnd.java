@@ -8,6 +8,10 @@
  *
  * @author Wangechi
  */
+
+// Two pointer approach for Zero and non Zero elements
+//Time complexity O(n)
+//Space Complexity O(1)
 public class MoveZeroesToEnd {
 
     public static void moveZeroesToEnd(int[] nums) {
