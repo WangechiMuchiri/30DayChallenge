@@ -18,7 +18,7 @@ public class HappyNumber {
     static boolean result;
 
     //get individual digits from given number
-    //store seen numbers in a map
+    //store seen numbers in a list
     public static boolean computeSumOfSquares(int num) {
         int count = 0, temp = 0, digit = 0, sum_of_squares = 0;
         if (num == 1) {
