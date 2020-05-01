@@ -8,6 +8,9 @@
  *
  * @author Wangechi
  */
+//This solution allows a one pass through the array
+//Time complexity O(n)
+//Space complexity O(1)
 public class StockProblem {
     public static int findMaxProfit(int [] prices){
         //find any instance where prices [i+1] is greater than prices [i]
@@ -15,11 +18,8 @@ public class StockProblem {
         for (int i = 0;i<prices.length-1;i++){
             if(prices [i] < prices [i+1]){
                 max_profit = max_profit + (prices[i+1]-prices[i]);
-                
-                System.out.println("&&&"+max_profit);
             }
         }
-        System.out.println("MAX PROF IS" +max_profit);
         return max_profit;
     }
     public static void main(String[] args) {
