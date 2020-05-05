@@ -11,6 +11,9 @@ import java.util.HashMap;
  *
  * @author Wangechi
  */
+// Time complexity O(n)
+// Space Complexity O(n)
+// This approach involves a single pass through the input array
 public class CountElements {
     public static int countElements(int [] arr){
         HashMap <Integer, Integer> myMap = new HashMap<Integer,Integer>();
